@@ -20,4 +20,4 @@ console.log(nameSiteMapping.delete("Runoob"));    // true
 console.log(nameSiteMapping);
 // 移除 Map 对象的所有键/值对
 nameSiteMapping.clear();             // 清除 Map
-console.log(nameSiteMapping);   
+console.log(nameSiteMapping);
