@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Profile from "./profile/Profile";
 import AvatarandCard from "./AvatarandCard/AvatarandCard";
+import BestPractices from "./button/button";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
                 <Profile/>
                 <Profile/>
                 <AvatarandCard/>
+                <BestPractices/>
             </section>
             <p className="App-intro">
                 你可以在 <code>src/App.js</code> 文件中修改。
