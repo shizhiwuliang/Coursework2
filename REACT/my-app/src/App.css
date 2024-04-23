@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: auto;
+  width: 100%;
+  max-width: 600px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.profiles-row {
+  display: flex;
+  justify-content: space-around; /* 或者使用 space-between, center等来调整间距 */
+}
+
+/* 你可能还想为每个Profile组件添加一些边距，以便它们之间有一些空间 */
+.profile {
+  margin: 0 10px; /* 举例，根据你的需要调整数值 */
 }
